@@ -163,3 +163,34 @@
     width: 100%;
   }
 
+.cust{
+    /* border:2px solid black; */
+    height:20rem;
+    width: 70%;
+    margin:5rem 0rem;
+}
+.textt{
+    font-size: 90px;
+    color: #ff0000eb;
+    font-weight:bolder;
+    text-align: left;
+    padding-left: 20px;
+}
+#pr{
+    text-align: left;
+    line-height: 42px;
+    font-size: 20px;
+    color: gray;
+}
+.giffy {
+    text-align: center; 
+    /* opacity: 0.95; */
+}
+
+.giffy img {
+    width: 100%; 
+    max-width: 564px; 
+    height: auto;
+    border-radius: 15px;
+    
+}
