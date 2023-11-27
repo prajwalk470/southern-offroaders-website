@@ -4,43 +4,73 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Other head elements -->
-
-    <!-- Link to your stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- Your website content -->
-
-    <!-- Top bar -->
-    <div class="top-bar">
-        <div class="connect">
-            <span>Email: <a href="mailto:info@example.com">info@example.com</a></span>
-            <span>Phone: +1 (555) 123-4567</span>
-            <div class="social-media-links">
-                <a href="https://www.facebook.com/example" target="_blank">Facebook</a>
-                <a href="https://twitter.com/example" target="_blank">Twitter</a>
-                <!-- Add more social media links as needed -->
-            </div>
+    <section class="topbar">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col d-flex flex-row justify-content-center align-items-center" style="margin-top:6px">
+                    <div class="d-flex mar">
+                        <i class="fa fa-phone pding" style="font-size:22px;color:red"></i>
+                        <p style="font-size: 11px;">+91-9001792225</p>
+                    </div>
+                    <div class="d-flex">
+                        <i class="fa fa-envelope pding" style="font-size:22px; color:red"></i>
+                        <p style="font-size: 11px;">info@akashkp.in</p>
+                    </div>
+                </div>
+                <div class="col cole d-flex flex-row justify-content-end align-items-center" style="margin-right:16%;">
+                    <i class="fa fa-facebook-f icon mx-2" style="font-size: 18px;"></i>
+                    <i class="fa fa-instagram icon mx-2" style="font-size: 18px;"></i>
+                    <i class="fa fa-linkedin-square icon mx-2" style="font-size: 18px;"></i>
+                    <i class="fa fa-youtube-play icon mx-2" style="font-size: 18px;"></i>
+                </div>
         </div>
-    </div>
+    </section>
+    
 
     <!-- Navigation bar -->
-    <div class="navbar">
-
-        <a href="index.html"><img src="logo.png" alt="Logo"></a>
-        <a href="about.html">About us</a>
-        <a href="blogs.html">Blogs</a>
-        <a href="what_we_do.html">What we do</a>
-        <a href="our_work.html">Our Work</a>
-    </div>
-
-    <div class="youtube_linker">
-        <a href="https://youtu.be/pMcI5mL_FZw" target="_blank"></a>
-    </div>
-
-    <div class="short_brief">
+    <section class="navb">
+        <div class="container text-center d-flex align-items-center justify-content-between">
+            <div class="col-3">
+                <img src="logo.png" alt="Your Image" class="img-fluid" style="max-height: 40px; margin-right: -60px;">
+            </div>
+    
+            <div class="col-6 d-flex justify-content-center align-items-center" style="margin-right: 100px">
+                <button class="nav-btn">ABOUT US</button>
+                <button class="nav-btn">BLOGS</button>
+            
+                <!-- Dropdown for "OUR WORK" -->
+                <button class="nav-btn">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        WORK
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </button>
+            
+                <button class="nav-btn">WHAT WE DO</button>
+            
+                <!-- Red button "LET'S TALK" -->
+                <button class="nav-btn red-btn no-underline">LET'S TALK</button>
+            </div>    
+            
+        </div>
+    </section>
+    <div class ="youtube_linker" onclick="window.open('https://youtu.be/pMcI5mL_FZw', '_blank');">
+        <a></a> 
+    </div> 
+<!-- done till here no changes required only styling to be made  -->
+    
+    <div class =  "short_brief"> 
         <p>A short brief about the company and so on here </p>
 
         <h1> WHAT WE DO </h1>
@@ -69,7 +99,8 @@
             </div>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
