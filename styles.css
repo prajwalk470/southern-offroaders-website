@@ -1,66 +1,89 @@
-/* styles.css */
-
-/* Apply basic styling to the top bar */
-.top-bar {
-    background-color: #333; /* Set the background color as needed */
-    color: #903c3c; /* Set the text color */
+.topbar {
+    background-color: #0e0e0e; /* Set the background color as needed */
+    color: #ffffff;
+    height: 2.5rem;
+}
+.mar{
+    margin-right:30px;
+}
+.pding{
+    padding-right: 10px;
+}
+.cole{
     padding: 10px; /* Adjust the padding as needed */
+}
+.icon {
+    color: white;
+    margin: 0 10px; /* Adjust the margin to add space between icons */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+.icon:hover {
+    color: red; /* Change color to red on hover */
+}
+.nav-btn.dropdown-toggle::after {
+    display: none;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.navb {
+    background-color: #ffffff; 
+    color: #903c3c; 
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    height: 60px;
 }
-
-.connect {
-    display: flex;
-    /**justify-content: space-between;
-    /*align-items: center; /* Center items vertically within the flex container */
+.nav-btn {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0px 6px;
 }
-
-.connect span {
-    margin-right: 20px; /* Adjust the spacing between elements */
-}
-
-.social-media-links {
-    margin-left : 900px; /* Push the social media links to the far right */
-}
-
-
- .social-media-links a {
-    margin-right: 10px; /* Adjust the spacing between social media links */
-    text-decoration: none; /* Remove underlines from links */
-   color: #080808; /* Set the link color as needed */
- }
-
-.navbar {
-    background-color: #960303; /* Set the background color as needed */
-    color: #903c3c; /* Set the text color */
-    padding: 10px; /* Adjust the padding as needed */
-    display: flex;
-    justify-content: space-between;
-    height: 30px;
-}
-
-.navbar img {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
-}
-
-
-.youtube_linker {
-
-    padding : 0% 2% 2% 2% ;
-    height :30%;
-    display: flex;
-    justify-content: center;
+.nav-btn.no-underline:hover::before {
+    display: none;
     
-
 }
-
-.youtube_linker img {
-
-    width : 700px ;
-    height :  500px ;
+.red-btn:hover {
+    transform: scale(1.15);
+    transition: 0.5s; 
+}       
+.red-btn {
+    background-color: red;
+    color: white;
+    border-radius: 6px;
 }
-
+.nav-btn:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #000;  
+    bottom: 0;
+    left: 0;
+}
+.youtube_linker {
+    width: 100%;
+    height: 617px; /* Set the desired height for the div */
+    background: url('car-bg.jpg') center/cover; /* Use the image as background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.youtube_linker::after {
+    content: '\f144'; 
+    font-family: 'FontAwesome';
+    font-size: 50px; 
+    color: #fff; /* Set the color of the play icon */
+    position: absolute;
+    cursor: pointer;
+}
+/* css above is prajwal and valid add below if u want other sections  css */
 .short_brief {
 
     display: flex;
