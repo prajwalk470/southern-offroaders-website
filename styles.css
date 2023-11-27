@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Apply basic styling to the top bar */
+.top-bar {
+    background-color: #333; /* Set the background color as needed */
+    color: #903c3c; /* Set the text color */
+    padding: 10px; /* Adjust the padding as needed */
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect {
+    display: flex;
+    /**justify-content: space-between;
+    /*align-items: center; /* Center items vertically within the flex container */
+}
+
+.connect span {
+    margin-right: 20px; /* Adjust the spacing between elements */
+}
+
+.social-media-links {
+    margin-left : 900px; /* Push the social media links to the far right */
+}
+
+
+ .social-media-links a {
+    margin-right: 10px; /* Adjust the spacing between social media links */
+    text-decoration: none; /* Remove underlines from links */
+   color: #080808; /* Set the link color as needed */
+ }
+
+.navbar {
+    background-color: #960303; /* Set the background color as needed */
+    color: #903c3c; /* Set the text color */
+    padding: 10px; /* Adjust the padding as needed */
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.navbar img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+.youtube_linker {
+
+    padding : 0% 2% 2% 2% ;
+    height :30%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.youtube_linker img {
+
+    width : 700px ;
+    height :  500px ;
+}
+
+.short_brief {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.short_brief p {
+
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.seperator {
+
+      display: block;
+      width: 30%;
+      border-top: 2px solid #9a0808; /* Adjust color as needed */
+      margin: 30px 0; /* Adjust margin as needed */
+
+}
